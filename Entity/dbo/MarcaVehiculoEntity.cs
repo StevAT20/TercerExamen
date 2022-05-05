@@ -9,7 +9,7 @@ namespace Entity
     public partial class MarcaVehiculoEntity:EN
     {
         public int? MarcaVehiculoId { get; set; }
-        public double Descripcion { get; set; }
+        public string Descripcion { get; set; }
         
     }
 }
